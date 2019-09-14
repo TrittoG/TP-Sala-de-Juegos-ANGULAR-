@@ -53,6 +53,7 @@ import { MapaDeGoogleComponent } from './componentes/mapa-de-google/mapa-de-goog
 import { AgmCoreModule } from '@agm/core';
 import { InputJugadoresComponent } from './componentes/input-jugadores/input-jugadores.component';
 import { SexoPipe } from './pipes/sexo.pipe';
+import { VelocidadClickComponent } from './componentes/velocidad-click/velocidad-click.component';
 
 @NgModule({
   declarations: [
@@ -78,7 +79,8 @@ import { SexoPipe } from './pipes/sexo.pipe';
     MapaDeGoogleComponent,
     JugadoresListadoComponent,
     InputJugadoresComponent,
-    SexoPipe
+    SexoPipe,
+    VelocidadClickComponent
   ],
   imports: [
     BrowserModule,

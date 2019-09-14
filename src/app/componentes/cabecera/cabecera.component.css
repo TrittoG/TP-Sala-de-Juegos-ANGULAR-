@@ -15,7 +15,7 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-color: #3E06B0;
+color: firebrick;
 }
 
 .hero-text a {
@@ -32,4 +32,14 @@ cursor: pointer;
 .hero-text a:hover {
 background-color: #555;
 color: white;
+}
+
+.boton
+{
+    font-family: 'Cooper', 'Times New Roman', serif;
+    text-decoration: none;
+    border-radius:4px; 
+    -moz-border-radius:3px; /* Firefox */ 
+    -webkit-border-radius:20px;
+    margin-right: 30px;
 }

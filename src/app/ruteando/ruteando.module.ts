@@ -21,6 +21,7 @@ import { QuienSoyComponent } from '../componentes/quien-soy/quien-soy.component'
 import { ListadoDePaisesComponent } from '../componentes/listado-de-paises/listado-de-paises.component'
 import { MapaDeGoogleComponent } from '../componentes/mapa-de-google/mapa-de-google.component'
 import { JugadoresListadoComponent } from '../componentes/jugadores-listado/jugadores-listado.component';
+import { VelocidadClickComponent } from '../componentes/velocidad-click/velocidad-click.component';
 
 
 // declaro donde quiero que se dirija
@@ -35,6 +36,7 @@ const MiRuteo = [
 {path: 'Listado' , component: ListadoComponent},
 {path: 'Paises' , component: ListadoDePaisesComponent},
 
+
 { path: 'Juegos' ,
 component: JuegosComponent ,
 children:
@@ -42,7 +44,8 @@ children:
      {path: 'Adivina' , component: AdivinaElNumeroComponent},
       {path: 'AdivinaMasListado' , component: AdivinaMasListadoComponent},
       {path: 'AgilidadaMasListado' , component: AgilidadMasListadoComponent},
-      {path: 'Agilidad' , component: AgilidadAritmeticaComponent}]
+      {path: 'Agilidad' , component: AgilidadAritmeticaComponent},
+      {path: 'VelocidadClick', component: VelocidadClickComponent}]
 },
 {path: '**' , component: ErrorComponent},
 {path: 'error' , component: ErrorComponent}];

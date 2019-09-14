@@ -1,0 +1,37 @@
+<p>velocidad-click works!</p>
+<h1>Velocidad de Click</h1>
+<p>el juego consta de un boton, el cual debe clickearse la mayor cantidad de veces posible en 10 segundos</p>
+<br>
+<br>
+
+
+
+<div style="position: relative; float: left;">
+    <div id="clickea"> 
+        <button id="boton" (click)="Contar()">Clickea!</button> 
+    </div>
+
+    <div id="nuevoJuego" >
+        <button id="boton" (click)="NuevoJuego()">Yaaaa!</button> 
+    </div>
+
+    <div id="listo" >
+        <button id="boton" (click)="MostrarOcultarListo()">Listo!</button> 
+    </div>
+
+    <div id="preparado" >
+        <button id="boton" (click)="MostrarOcultarPrep()">Preparado??</button> 
+    </div>
+</div>
+
+<div style="float: right; margin-right: 400px;">
+    <p>cantidad: {{juntado}}</p>
+    <br>
+    <p>Puntuacion: {{puntuacion}}</p>
+    <br>
+    <p>Record: {{maximo}}</p>
+    <br>
+    <p>Tiempo: {{tiempo}}</p>
+
+</div>
+

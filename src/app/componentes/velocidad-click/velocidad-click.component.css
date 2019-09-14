@@ -1,0 +1,29 @@
+#boton
+{
+    height: 500px;
+    width: 809.01699px;
+    float: left;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    background-color: lightseagreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font:bold;
+    font-size: 300%;
+    border-width: 5px;
+    border-color: black;
+}
+
+#nuevoJuego, #clickea, #preparado, #listo
+{
+    height: 500px;
+    width: 809.01699px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+
+    position: absolute;
+
+  
+}
+
+
+
